@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*伪类选择器*/
+			div {
+				width: 100px;
+				height: 100px;
+				background: #f00;
+			}
+			a {
+				color: black;
+			}
+			
+			
+			/*下面的书写顺序 link-visited-hover-active
+			 否则会产生覆盖问题
+			 如active发生时hover一定会发生
+			 如已访问的连接visited，会覆盖之前的hover...样式
+			 * */
+			a:link{
+				color: aqua;
+			}
+			a:visited {
+				color: #666;
+			}
+			
+			a:hover {
+				color: red;
+			}
+			a:active {
+				color: green;
+			}
+		
+			
+			div:hover {
+				background: #00f;
+			}
+			div:active {
+				background: #0f0;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="#">dfasdfsadg</a>
+		
+		
+		<div></div>
+	</body>
+</html>

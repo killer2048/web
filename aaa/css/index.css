@@ -38,15 +38,14 @@ ul {
 }
 .info {
 	position: relative;
-	display: inline-block;
+	float: left;
 	width: 70%;
-	vertical-align: top;
 }
 
 .head-img {
 	display: inline-block;
 	width: 20%;
-	vertical-align: top;
+	float: left;
 	
 }
 .form-item {
