@@ -1,0 +1,38 @@
+* {
+	/*清除默认的内外边距*/
+	margin: 0;
+	padding: 0;
+}
+
+div	{
+	width: 100px;
+	height: 100px;
+}
+img	{
+	
+	background: #0000FF;
+}
+span {
+	float: left;/*浮动本来用于文字环绕*/
+}
+
+
+/*float 会使元素脱离文档流 但浮动的多个元素会互相影响定位*/
+.div1 {
+	background-color: #f00;
+	float: left;
+}
+.div2 {
+	background-color: #0f0;
+	height: 150px;
+	float: left;
+	
+}
+.div3 {
+	background-color: #00f;
+	width: 150px;
+	
+}
+.div4 {
+	background-color: #0ff;
+}
