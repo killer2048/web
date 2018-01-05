@@ -1,0 +1,74 @@
+* {
+	color: #f0f;
+}
+
+#font {
+	/*英文是arial，中文是微软雅黑，宋体没使用到*/
+	font-family: arial,"微软雅黑","宋体";/*可以写多个字体，从前向后使用,如果前面的字体没有的字符会使用后面的字体*/
+	font-size:14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #38d;
+	text-indent: 2em;/*块级元素有效，首行缩进*/
+	text-decoration: line-through;
+	/*text-decoration: underline;*/
+	text-transform: uppercase;
+	text-transform: capitalize;
+	text-align: center;/*对行内元素有效(对子元素作用),调整子元素相对父元素位置*/
+	letter-spacing:-2px ;/*字符间距*/
+	word-spacing: 20px;/*单词间距*/
+	line-height: 50px;
+}
+
+#size {
+	/*只有块级元素才有宽高*/
+	/*border-width: 1px;*/
+	/*border-color: #000;*/
+	/*border-style: solid;*/
+	border: 5px double #00f;
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;/*圆角*/
+	
+}
+
+#background {
+	background-image: url(../img/bg_img1.jpg);
+	width: 200px;
+	height: 2000px;
+	background-repeat:no-repeat;/*背景重复*/
+	/*background-repeat: repeat-x;*/
+	background-size:50% 50%;
+	/*background-color: #000;*//*没有图是会显示背景色*/
+	background-position: 0% 0%;
+	background-attachment: fixed;/*背景不滚动*/
+}
+
+.box {
+	width: 100px;/*默认为内容区宽*/
+	height: 100px;
+	border: 1px solid #000;
+	background: #ff0;
+	font-size: 14px;
+	line-height: 100px;
+	
+		
+	
+}
+
+.box * {
+	vertical-align: middle;
+}
+#box1 {
+	width: 200px;
+	margin: 0 auto;/*水平居中*/
+	margin-bottom: 50px;
+	/*display: none;*/
+	visibility:hidden;
+}
+#box2 {
+	box-sizing: border-box;
+	padding: 10px;
+	cursor:help;
+	outline: #0000FF dotted thin;
+}

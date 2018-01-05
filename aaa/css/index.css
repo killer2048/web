@@ -1,0 +1,104 @@
+
+.hide {
+	display: none!important;
+}
+.hide-withblock {
+	visibility: hidden!important;
+}
+.clear-fixed:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+html,body,input {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.body-container  {
+	position:relative;
+	width: 800px;
+	margin: 0 auto;
+}
+.page-title {
+	color: #95AAB9;
+}
+.sub-title {
+	color:#EF9877
+}
+.info-container {
+	position: relative;
+	width: 100%;
+}
+.info {
+	position: relative;
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+.head-img {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	
+}
+.form-item {
+	display: block;
+	position: relative;
+	width: 95%;
+	height: 20px;
+	margin-bottom: 20px;
+	margin-left: 5%;
+}
+.item-unit {
+	display: block;
+	float:left;
+	height: 100%;
+}
+.item-unit.must-enter {
+	width: 5%;
+	text-align: right;
+	color: red;
+}
+.item-unit.item-name {
+	width: 30%;
+}
+.item-unit.item-value {
+	width: 65%;
+}
+
+.item-value input {
+	height: 100%;
+	line-height: 100%;
+	font-size: 14px;
+	line-height: 20%;
+	
+}
+.item-value input[readonly="readonly"] {
+	color:#666;
+	border: 0;
+	
+}
+
+
+.btn-container {
+	position: relative;
+	width: 100%;
+}
+.btn-container .btn{
+	display: none;
+	height: 20px;
+	width: auto;
+	margin: 0 auto;
+	
+} 
+.btn-container  .btn.show {
+	display: block;
+}
